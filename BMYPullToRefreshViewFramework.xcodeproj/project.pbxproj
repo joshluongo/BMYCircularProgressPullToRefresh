@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		031847801D0E7560003E8568 /* BMYPullToRefreshViewFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0318477F1D0E7560003E8568 /* BMYPullToRefreshViewFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		031847A61D0E7717003E8568 /* BMYCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0318479D1D0E7717003E8568 /* BMYCircularProgressView.h */; };
+		031847A61D0E7717003E8568 /* BMYCircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0318479D1D0E7717003E8568 /* BMYCircularProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		031847A71D0E7717003E8568 /* BMYCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0318479E1D0E7717003E8568 /* BMYCircularProgressView.m */; };
-		031847A81D0E7717003E8568 /* BMYProgressViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0318479F1D0E7717003E8568 /* BMYProgressViewProtocol.h */; };
-		031847A91D0E7717003E8568 /* BMYPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 031847A11D0E7717003E8568 /* BMYPullToRefreshView.h */; };
+		031847A81D0E7717003E8568 /* BMYProgressViewProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 0318479F1D0E7717003E8568 /* BMYProgressViewProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		031847A91D0E7717003E8568 /* BMYPullToRefreshView.h in Headers */ = {isa = PBXBuildFile; fileRef = 031847A11D0E7717003E8568 /* BMYPullToRefreshView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		031847AA1D0E7717003E8568 /* BMYPullToRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 031847A21D0E7717003E8568 /* BMYPullToRefreshView.m */; };
-		031847AB1D0E7717003E8568 /* UIScrollView+BMYPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 031847A31D0E7717003E8568 /* UIScrollView+BMYPullToRefresh.h */; };
+		031847AB1D0E7717003E8568 /* UIScrollView+BMYPullToRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 031847A31D0E7717003E8568 /* UIScrollView+BMYPullToRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		031847AC1D0E7717003E8568 /* UIScrollView+BMYPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 031847A41D0E7717003E8568 /* UIScrollView+BMYPullToRefresh.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0318477C1D0E7560003E8568 /* BMYPullToRefreshViewFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMYPullToRefreshViewFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0318477C1D0E7560003E8568 /* BMYPullToRefreshView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BMYPullToRefreshView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0318477F1D0E7560003E8568 /* BMYPullToRefreshViewFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BMYPullToRefreshViewFramework.h; sourceTree = "<group>"; };
 		031847811D0E7560003E8568 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0318479D1D0E7717003E8568 /* BMYCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMYCircularProgressView.h; sourceTree = "<group>"; };
@@ -52,7 +52,7 @@
 		0318477D1D0E7560003E8568 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0318477C1D0E7560003E8568 /* BMYPullToRefreshViewFramework.framework */,
+				0318477C1D0E7560003E8568 /* BMYPullToRefreshView.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -106,31 +106,31 @@
 			files = (
 				031847801D0E7560003E8568 /* BMYPullToRefreshViewFramework.h in Headers */,
 				031847AB1D0E7717003E8568 /* UIScrollView+BMYPullToRefresh.h in Headers */,
+				031847A91D0E7717003E8568 /* BMYPullToRefreshView.h in Headers */,
 				031847A81D0E7717003E8568 /* BMYProgressViewProtocol.h in Headers */,
 				031847A61D0E7717003E8568 /* BMYCircularProgressView.h in Headers */,
-				031847A91D0E7717003E8568 /* BMYPullToRefreshView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0318477B1D0E7560003E8568 /* BMYPullToRefreshViewFramework */ = {
+		0318477B1D0E7560003E8568 /* BMYPullToRefreshView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 031847841D0E7560003E8568 /* Build configuration list for PBXNativeTarget "BMYPullToRefreshViewFramework" */;
+			buildConfigurationList = 031847841D0E7560003E8568 /* Build configuration list for PBXNativeTarget "BMYPullToRefreshView" */;
 			buildPhases = (
 				031847771D0E7560003E8568 /* Sources */,
 				031847781D0E7560003E8568 /* Frameworks */,
-				031847791D0E7560003E8568 /* Headers */,
 				0318477A1D0E7560003E8568 /* Resources */,
+				031847791D0E7560003E8568 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = BMYPullToRefreshViewFramework;
+			name = BMYPullToRefreshView;
 			productName = BMYPullToRefreshViewFramework;
-			productReference = 0318477C1D0E7560003E8568 /* BMYPullToRefreshViewFramework.framework */;
+			productReference = 0318477C1D0E7560003E8568 /* BMYPullToRefreshView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -159,7 +159,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0318477B1D0E7560003E8568 /* BMYPullToRefreshViewFramework */,
+				0318477B1D0E7560003E8568 /* BMYPullToRefreshView */,
 			);
 		};
 /* End PBXProject section */
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		031847841D0E7560003E8568 /* Build configuration list for PBXNativeTarget "BMYPullToRefreshViewFramework" */ = {
+		031847841D0E7560003E8568 /* Build configuration list for PBXNativeTarget "BMYPullToRefreshView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				031847851D0E7560003E8568 /* Debug */,

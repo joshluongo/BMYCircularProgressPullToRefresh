@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0318477B1D0E7560003E8568"
-               BuildableName = "BMYPullToRefreshViewFramework.framework"
-               BlueprintName = "BMYPullToRefreshViewFramework"
+               BuildableName = "BMYPullToRefreshView.framework"
+               BlueprintName = "BMYPullToRefreshView"
                ReferencedContainer = "container:BMYPullToRefreshViewFramework.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,8 +46,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0318477B1D0E7560003E8568"
-            BuildableName = "BMYPullToRefreshViewFramework.framework"
-            BlueprintName = "BMYPullToRefreshViewFramework"
+            BuildableName = "BMYPullToRefreshView.framework"
+            BlueprintName = "BMYPullToRefreshView"
             ReferencedContainer = "container:BMYPullToRefreshViewFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -64,8 +64,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0318477B1D0E7560003E8568"
-            BuildableName = "BMYPullToRefreshViewFramework.framework"
-            BlueprintName = "BMYPullToRefreshViewFramework"
+            BuildableName = "BMYPullToRefreshView.framework"
+            BlueprintName = "BMYPullToRefreshView"
             ReferencedContainer = "container:BMYPullToRefreshViewFramework.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
