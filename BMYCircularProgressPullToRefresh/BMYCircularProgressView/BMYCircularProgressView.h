@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Beamly. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 #import "BMYProgressViewProtocol.h"
 

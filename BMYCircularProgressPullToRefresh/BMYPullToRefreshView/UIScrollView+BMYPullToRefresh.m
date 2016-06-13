@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 Beamly. All rights reserved.
 //
 
-#import <QuartzCore/QuartzCore.h>
-#import <objc/runtime.h>
+@import QuartzCore;
+@import ObjectiveC;
 
 #import "UIScrollView+BMYPullToRefresh.h"
 

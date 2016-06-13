@@ -8,7 +8,7 @@
 
 #import "BMYCircularProgressView.h"
 
-#import <QuartzCore/QuartzCore.h>
+@import QuartzCore;
 
 #define degToRad(angle) (angle) * (M_PI / 180.0)
 

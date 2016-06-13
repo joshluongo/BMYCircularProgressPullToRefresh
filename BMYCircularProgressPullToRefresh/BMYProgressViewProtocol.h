@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Beamly. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+@import Foundation;
 
 @protocol BMYProgressViewProtocol <NSObject>
 
