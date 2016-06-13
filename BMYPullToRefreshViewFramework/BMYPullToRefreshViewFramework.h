@@ -6,7 +6,7 @@
 //  Copyright © 2016 Joshua Luongo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
 
 //! Project version number for BMYPullToRefreshViewFramework.
 FOUNDATION_EXPORT double BMYPullToRefreshViewFrameworkVersionNumber;
@@ -19,3 +19,5 @@ FOUNDATION_EXPORT const unsigned char BMYPullToRefreshViewFrameworkVersionString
 
 #import <BMYPullToRefreshViewFramework/UIScrollView+BMYPullToRefresh.h>
 #import <BMYPullToRefreshViewFramework/BMYCircularProgressView.h>
+#import <BMYPullToRefreshViewFramework/BMYPullToRefreshView.h>
+#import <BMYPullToRefreshViewFramework/BMYProgressViewProtocol.h>
